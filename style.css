@@ -1,0 +1,64 @@
+@font-face {
+  font-family: Typefesse_Claire-Obscure;
+  src: url(/Users/lou/Code/website1/Typefesse_Claire-Obscure.woff2) format('woff2'),
+}
+
+body {
+  font-family:'verdana';
+  color: #ffffff;
+  background-color: #ADB2D3;
+  margin: 30px;
+}
+
+header, div, section, footer {
+  padding: 20px;
+  background-color: #214946;
+  margin-bottom: 0px;
+  position: relative;
+  overflow: hidden;
+}
+.divider {  
+  padding: 20px;
+  background-color: #214946;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+
+}
+.title {
+  font-family:'Typefesse_Claire-Obscure';
+}
+
+.gallery-container {
+  overflow: scroll; 
+}
+
+.gallery {
+  display: flex; 
+  transition: transform 0.5s ease;
+}
+
+.gallery img {
+  width: 50%; 
+  height: auto;
+}
+
+a {
+  color: #E4FFE1;
+  text-decoration: none; 
+}
+
+a:hover {
+  color: #E4FFE1;
+  text-decoration: underline; 
+  background-color: #896279;
+}
+
+a:visited {
+  color: #E4FFE1;
+}
+
+a:active {
+  color: #E4FFE1;
+}
