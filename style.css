@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Typefesse_Claire-Obscure;
-  src: url(Typefesse_Claire-Obscure.woff2) format('woff2'),
+  font-family: ActUpProtestFont;
+  src: url("ActUpProtestFont-Regular.otf") format("opentype"),
 }
 
 body {
@@ -27,7 +27,7 @@ header, div, section, footer {
 
 }
 .title {
-  font-family:'Typefesse_Claire-Obscure';
+  font-family: ActUpProtestFont;
   text-align: center;
 }
 
