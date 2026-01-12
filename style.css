@@ -28,6 +28,7 @@ header, div, section, footer {
 }
 .title {
   font-family:'Typefesse_Claire-Obscure';
+  text-align: center;
 }
 
 .gallery-container {
