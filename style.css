@@ -36,6 +36,9 @@ div.gallery-container {
   overflow: auto; 
   white-space: nowrap;
   padding: 10px;
+  align-items: center;
+
+
 }
 
 div.gallery-container img {
@@ -43,7 +46,7 @@ div.gallery-container img {
   width: 50%;
   height: auto;
   position: center;
-  
+
   }
   
 
